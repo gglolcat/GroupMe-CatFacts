@@ -64,7 +64,7 @@ $flair = array(
 );
 
 
-if ($decoded->sender_type == "user" && strpos(strtolower($decoded->text), "cat") !== false){
+if ($decoded->sender_type == "user" && strpos(strtolower($decoded->text), "cat facts") !== false){
 sleep(1);
 $url = 'https://api.groupme.com/v3/bots/post';
 
